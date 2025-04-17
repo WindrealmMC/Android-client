@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>风绘之境MC服务器 - 安卓客户端</title>
+    <link rel="icon" type="image/svg+xml" href="https://www.mikufun.top/icon.svg">
+    <style>
+        body {
+            font-family: 'Minecraft', 'Minecraftia', sans-serif;
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="%230a0a0a"/><rect x="0" y="0" width="50" height="50" fill="%23111"/><rect x="50" y="50" width="50" height="50" fill="%23111"/></svg>');
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 2px solid #4CAF50;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo img {
+            height: 50px;
+            margin-right: 15px;
+        }
+        
+        .logo h1 {
+            font-size: 24px;
+            margin: 0;
+            color: #4CAF50;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            margin-left: 20px;
+        }
+        
+        nav ul li a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #4CAF50;
+        }
+        
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 40px 0;
+            background-color: #111;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+        
+        .hero-content {
+            flex: 1;
+        }
+        
+        .hero-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+        
+        .hero-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        
+        .download-buttons {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .download-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: flex;
+            align-items: center;
+        }
+        
+        .download-button:hover {
+            background-color: #3e8e41;
+        }
+        
+        .download-button i {
+            margin-right: 8px;
+        }
+        
+        .hero-image {
+            flex: 1;
+            text-align: center;
+        }
+        
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 40px;
+            border-top: 2px solid #4CAF50;
+            color: #666;
+        }
+        
+        footer p {
+            margin: 5px 0;
+        }
+        
+        .pixel-border {
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 20px 0;
+            background-color: #111;
+        }
+        
+        .pixel-text {
+            font-family: 'Minecraft', 'Minecraftia', monospace;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="https://www.mikufun.top/icon.svg" alt="风绘之境Logo">
+                <h1>风绘之境MC服务器</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="https://www.mikufun.top">官网</a></li>
+                    <li><a href="https://www.123684.com/s/hj3Tjv-J5jc3" target="_blank">网盘</a></li>
+                    <li><a href="https://docs.mikufun.top">文档</a></li>
+                    <li><a href="https://docs.mikufun.top/about.html">关于我们</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="hero">
+            <div class="hero-content">
+                <h2 class="pixel-text">风绘之境安卓客户端</h2>
+                <p>体验插件端互通原版生电服，畅享无限创造与冒险。风绘之境MC服务器为您提供最稳定的连接和最丰富的游戏内容。</p>
+                <div class="download-buttons">
+                    <button class="download-button" onclick="window.location.href='https://www.123684.com/s/hj3Tjv-J5jc3'">
+                        <i>↓</i> 下载
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://statics.123957.com/share-static/dist/static/logo_top.8850108f.svg" alt="风绘之境客户端预览">
+            </div>
+        </section>
+        
+        <footer>
+            <p>© 2025 风绘之境MC 版权所有</p>
+            <p>官网: <a href="https://www.mikufun.top" style="color: #4CAF50;">www.mikufun.top</a> | 文档: <a href="https://docs.mikufun.top" style="color: #4CAF50;">docs.mikufun.top</a></p>
+            <p>联系我们: a@mikufun.top</p>
+        </footer>
+    </div>
+</body>
+</html>

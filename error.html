@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - 页面未找到 - 风绘之境MC</title>
+    <link rel="icon" type="image/svg+xml" href="https://www.mikufun.top/icon.svg">
+    <style>
+        body {
+            font-family: 'Minecraft', 'Minecraftia', sans-serif;
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="%230a0a0a"/><rect x="0" y="0" width="50" height="50" fill="%23111"/><rect x="50" y="50" width="50" height="50" fill="%23111"/></svg>');
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(10, 10, 10, 0.9);
+            z-index: 100;
+            border-bottom: 2px solid #4CAF50;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+        }
+        
+        .logo img {
+            height: 40px;
+            margin-right: 15px;
+        }
+        
+        .logo h1 {
+            font-size: 20px;
+            margin: 0;
+            color: #4CAF50;
+        }
+        
+        .error-content {
+            text-align: center;
+            margin-top: 100px;
+        }
+        
+        .error-code {
+            font-size: 120px;
+            font-weight: bold;
+            color: #4CAF50;
+            margin: 0;
+            letter-spacing: 10px;
+        }
+        
+        .error-message {
+            font-size: 36px;
+            margin: 20px 0;
+            color: #e0e0e0;
+        }
+        
+        .error-description {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto 30px;
+            line-height: 1.6;
+            color: #b0b0b0;
+        }
+        
+        .back-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .back-button:hover {
+            background-color: #3e8e41;
+        }
+        
+        .back-button i {
+            margin-right: 8px;
+        }
+        
+        .pixel-border {
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            background-color: #111;
+        }
+        
+        .pixel-text {
+            font-family: 'Minecraft', 'Minecraftia', monospace;
+            letter-spacing: 1px;
+        }
+        
+        .cloud {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+        }
+        
+        .cloud-1 {
+            width: 100px;
+            height: 40px;
+            top: 15%;
+            left: 10%;
+            box-shadow: 
+                60px -10px 0 0 rgba(255, 255, 255, 0.1),
+                100px 0px 0 0 rgba(255, 255, 255, 0.1);
+        }
+        
+        .cloud-2 {
+            width: 120px;
+            height: 50px;
+            top: 40%;
+            right: 15%;
+            box-shadow: 
+                70px -15px 0 0 rgba(255, 255, 255, 0.1),
+                120px 0px 0 0 rgba(255, 255, 255, 0.1);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+            border-top: 2px solid #4CAF50;
+            color: #666;
+            width: 100%;
+        }
+        
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+    
+    <header>
+        <div class="logo">
+            <img src="https://www.mikufun.top/icon.svg" alt="风绘之境Logo">
+            <h1>风绘之境MC服务器</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="error-content">
+            <h2 class="error-code pixel-text">404</h2>
+            <h3 class="error-message">页面未找到</h3>
+            <p class="error-description">
+                抱歉，您请求的页面不存在。可能是链接错误或页面已被删除。
+                请尝试返回下载页面获取最新信息。
+            </p>
+            <button class="back-button" onclick="window.location.href='https://ac.mikufun.top/'">
+                <i>←</i> 返回下载页面
+            </button>
+            
+            <div class="pixel-border">
+                <p class="pixel-text">风绘之境MC-安卓客户端 - 123网盘</p>
+                <p>网盘: <a href="https://www.123684.com/s/hj3Tjv-J5jc3" style="color: #4CAF50;">Windrealm</a></p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2025 风绘之境MC 版权所有</p>
+            <p>联系我们: a@mikufun.top</p>
+        </footer>
+    </div>
+</body>
+</html>
