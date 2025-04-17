@@ -1,0 +1,29 @@
+{
+  "id": 8,
+  "significant": true,
+  "outdated": false,
+  "minVersion": -1,
+  "maxVersion": -1,
+  "specificLang": [],
+  "title": [
+    {
+      "lang": "en",
+      "text": "About Windrealm"
+    },
+    {
+      "lang": "zh_CN",
+      "text": "关于 风绘之境MC"
+    }
+  ],
+  "date": "2025.02.10",
+  "content": [
+    {
+      "lang": "en",
+      "text": "Welcome to the Windrealm - Client, here is the client announcement"
+    },
+    {
+      "lang": "zh_CN",
+      "text": "欢迎使用风绘之境-客户端，这里是客户端公告"
+    }
+  ]
+}
