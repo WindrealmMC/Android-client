@@ -1,0 +1,20 @@
+[
+  {
+    "type": "release",
+    "versionCode": 2,
+    "versionName": "1.2.1.4",
+    "date": "2025.04.18",
+    "description": [
+      {
+        "lang": "en",
+        "text": "客户端有更新啦，请前往网盘更新至最新版本，体验更多新功能"
+      },
+      {
+        "lang": "zh_CN",
+        "text": "客户端有更新啦，请前往网盘更新至最新版本，体验更多新功能"
+      }
+    ],
+    "netdiskUrl": "https://ac.mikufun.top",
+    "url": "https://ac.mikufun.top/error.jpg"
+  }
+]
